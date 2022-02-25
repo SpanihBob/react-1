@@ -6,6 +6,7 @@ const CompOne = function () {
     return (
         <div>
             <table>
+                <tbody>
                 <tr>
                     <td>Страна</td><td>Россия</td>                       
                 </tr>
@@ -20,8 +21,7 @@ const CompOne = function () {
                 </tr>
                 <tr>
                     <td>Флаг</td><td>
-                    <img
-                src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Izhevsk_%28Udmurtia%29.svg/180px-Flag_of_Izhevsk_%28Udmurtia%29.svg.png'
+                    <img alt="" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Izhevsk_%28Udmurtia%29.svg/180px-Flag_of_Izhevsk_%28Udmurtia%29.svg.png'
               ></img>
                     </td>
                 </tr>
@@ -34,6 +34,7 @@ const CompOne = function () {
                 <tr>
                     <td>Телефонный код</td><td>+7 3412</td>
                 </tr>
+                </tbody>
             </table>      
         </div>
     )
